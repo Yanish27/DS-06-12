@@ -1,0 +1,11 @@
+L'utilisateur arrive sur la page dédiée au changement de mot de passe.
+
+On lui demande son ancien mot de passe et son nouveau mot de passe.
+
+Si son ancien mot de passe est correct, on continue. Sinon, on lui affiche un message d'erreur.
+
+Si son nouveau mot de passe eet la confirmation de son nouveau mot de passe sont égaux, on continue. Sinon, on lui affiche un message d'erreur.
+
+Si son nouveau mot de passe est différent de l'ancien, on continue. Sinon, on lui affiche un message d'erreur.
+
+Par la suite, après ces 3 tests, on crypte le mot de passe et on l'insert dans la base de données.
