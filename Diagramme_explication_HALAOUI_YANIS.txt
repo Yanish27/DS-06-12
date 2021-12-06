@@ -1,3 +1,5 @@
+Diagramme : 
+
 L'utilisateur arrive sur la page dédiée au changement de mot de passe.
 
 On lui demande son ancien mot de passe et son nouveau mot de passe.
@@ -9,3 +11,17 @@ Si son nouveau mot de passe eet la confirmation de son nouveau mot de passe sont
 Si son nouveau mot de passe est différent de l'ancien, on continue. Sinon, on lui affiche un message d'erreur.
 
 Par la suite, après ces 3 tests, on crypte le mot de passe et on l'insert dans la base de données.
+
+
+-------
+Explication de code : 
+
+Ajout dans la page index.php de la méthode "?action=changementmdp".
+On vérifie si l'utilisateur est connecté. Sinon, on lui affiche un message d'erreur.
+
+Si l'utilisateur est connecté, 
+On regarde si il vient du formulaire.
+Si il ne vient pas du formulaire, on l'affiche.
+
+Si il vient du formulaire, on appelle la fonction ChangementMDP() située dans : controller/ctchangemdp.php
+Le controller est commenté.

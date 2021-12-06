@@ -16,10 +16,12 @@ if (!isset($_GET['action'])) {
         echo "Menu principal";
 
         echo "<br>";
+        echo "<br>";
 
         echo "<a href='index.php?action=logout'>Se déconnecter</a>";
 
 
+        echo "<br>";
         echo "<br>";
 
         echo "<a href='index.php?action=changementmdp'>Changement du mot de passe</a>";
